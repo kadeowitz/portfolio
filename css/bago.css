@@ -1,0 +1,124 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Customized Navbar Styles */
+.navbar-light,
+.navbar-toggler {
+    color: #2c3e50; /* Text color */
+    background-color: #ecf0f1; /* Navbar background color */
+    border-color: #182d3a; /* Border color */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-color: #e6ecf1; /* Navbar toggler icon color */
+}
+
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus {
+    color: #141414; /* Text color on hover/focus */
+    border-color: #fcf7f7; /* Border color on hover/focus */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #1b1d1b; /* Navbar link color */
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: brown; /* Navbar link color on hover/focus */
+}
+
+
+
+
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Add this CSS to your existing stylesheet or create a new one */
+
+
+footer {
+    flex-shrink: 0;
+}
+
+.hero-text{
+    font-size: 5vw;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    opacity: 0.99;
+
+}
+.btn-outline-dark{
+    background-color: rgb(255, 255, 255);
+}
+.card-body{
+    background-color: #848884
+}
+.card-text{
+    color:#FFF5EE
+}
+.card-title{
+    color: #141010
+}
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+}
+
+
+
+footer {
+    background-color: #1b1a1a;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #4b3a26;
+}
+
+@media (max-width: 768px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
+
+footer svg{
+    width: 40px;
+    height: 30px;
+}
+
+.custom-heading {
+    font-family: 'Cinzel', serif;
+    border: 0px dotted rgb(44, 14, 14);
+    padding: 10px;
+    text-shadow: 2px 2px 4px #070505;
+    font-size: 50px;
+    text-align: center;
+    color: #023020
+}
+
+
+
